@@ -4,10 +4,12 @@ module.exports = {
     fontFamily: {
       tiki: "kon-tiki-aloha-jf",
       roboto: "Roboto, sans-serif",
+      brandon: "brandon-grotesque, sans-serif;",
     },
     extend: {
       backgroundImage: {
         "main-splash": "url('/dist/images/mainsplash2.jpg')",
+        "mirrored-squares": "url('/dist/images/mirrored-squares.png')",
       },
     },
   },
