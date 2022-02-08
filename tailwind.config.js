@@ -8,7 +8,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "main-splash": "url('/dist/images/mainsplash2.jpg')",
+        "main-splash": "url('/dist/images/mainsplash.png')",
         "mirrored-squares": "url('/dist/images/mirrored-squares.png')",
       },
     },

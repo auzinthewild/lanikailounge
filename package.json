@@ -4,5 +4,8 @@
   },
   "scripts": {
     "start": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "dependencies": {
+    "postcss": "^8.4.6"
   }
 }
