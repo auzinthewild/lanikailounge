@@ -515,6 +515,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2rem;
 }
 
+.my-24 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -527,8 +542,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: -0.5rem;
 }
 
-.mt-12 {
-  margin-top: 3rem;
+.mt-24 {
+  margin-top: 6rem;
 }
 
 .mb-12 {
@@ -591,6 +606,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-72 {
   width: 18rem;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-1\/3 {
+  width: 33.333333%;
 }
 
 .max-w-7xl {
@@ -665,12 +688,31 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+.bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
+.bg-gray-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
 .bg-mirrored-squares {
   background-image: url('/dist/images/mirrored-squares.png');
 }
 
 .bg-main-splash {
   background-image: url('/dist/images/mainsplash.png');
+}
+
+.bg-main-2 {
+  background-image: url('/dist/images/bg2.png');
 }
 
 .bg-cover {
@@ -697,6 +739,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
 }
 
 .text-left {
@@ -765,6 +816,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
 .transition {

@@ -10,6 +10,7 @@ module.exports = {
       backgroundImage: {
         "main-splash": "url('/dist/images/mainsplash.png')",
         "mirrored-squares": "url('/dist/images/mirrored-squares.png')",
+        "main-2": "url('/dist/images/bg2.png')",
       },
     },
   },
