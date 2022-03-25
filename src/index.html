@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="/dist/output.css" rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/ffe751e0a0.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/bd27923ff1.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&amp;display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
     integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
@@ -17,17 +17,17 @@
     crossorigin=""></script>
 </head>
 
-<body class="bg-black bg-mirrored-squares">
-  <nav class="sm:hidden md:fixed h-24 w-full">
+<body class="bg-mirrored-squares">
+  <nav id="top" class=" md:fixed lg:fixed xl:fixed h-18 w-full">
     <div class="max-w-7xl mx-auto mt-2">
-      <div class="flex justify-between">
+      <div class="flex align-center justify-between">
         <div class="flex">
-          <img class="max-h-12" src="/dist/images/circlelogo.png" />
+          <a id="home" href="#home"><img class="max-h-12" src="/dist/images/circlelogo.png" /></a>
         </div>
-        <div class="flex items-center text-white tracking-wider font-normal font-brandon">
-          <div class="mx-2"><a href="">MENU</a></div>
-          <div class="mx-2"><a href="">ABOUT</a></div>
-          <div class="mx-2"><a href="">CONTACT</a></div>
+        <div id="navLinks" class="flex items-center text-white tracking-wider font-normal font-brandon">
+          <div class="mx-2"><a href="#menu">MENU</a></div>
+          <div class="mx-2"><a href="#about">ABOUT</a></div>
+          <div class="mx-2"><a href="#contact">CONTACT</a></div>
           <div class="mx-2">
             <a href=""><i class="text-lg fab fa-instagram"></i></a>
           </div>
@@ -130,75 +130,53 @@
       <div class="grid grid-cols-3 grid-rows-3 gap-8 max-w-4xl text-white">
         <div class="w-72">
           <h2 class="mb-2 text-gray-500 text-xl font-brandon">
-            OLD FASHIONED
+            CHURCHILL MARTINI
           </h2>
           <p class="text-white text-left text-lg font-brandon">
-            Rum · Pomegranate Liqueur · Orange Liqueur · Passion Fruit · Lime
-            · Orange · Red Wine Float
+            The classic of all classic gin martinis
           </p>
         </div>
         <div class="w-72">
-          <h2 class="mb-2 text-gray-500 text-xl font-brandon">MOSCOW MULE</h2>
+          <h2 class="mb-2 text-gray-500 text-xl font-brandon">BLOODY MARY</h2>
           <p class="text-white text-left text-lg font-brandon">
-            Rum · Pomegranate Liqueur · Orange Liqueur · Passion Fruit · Lime
-            · Orange · Red Wine Float
+            Savory and spicy, topped with a cocktail shrimp
           </p>
         </div>
         <div class="w-72">
           <h2 class="mb-2 text-gray-500 text-xl font-brandon">
-            WHISKEY SOUR
+            DAIQUIRI
           </h2>
           <p class="text-white text-left text-lg font-brandon">
-            Rum · Pomegranate Liqueur · Orange Liqueur · Passion Fruit · Lime
-            · Orange · Red Wine Float
+            Simply sublime with rum and lime
           </p>
         </div>
         <div class="w-72">
           <h2 class="mb-2 text-gray-500 text-xl font-brandon">MANHATTAN</h2>
           <p class="text-white text-left text-lg font-brandon">
-            Rum · Pomegranate Liqueur · Orange Liqueur · Passion Fruit · Lime
-            · Orange · Red Wine Float
+            Slightly sweet with a mellow rum twist
           </p>
         </div>
         <div class="w-72">
-          <h2 class="mb-2 text-gray-500 text-xl font-brandon">GIMLET</h2>
+          <h2 class="mb-2 text-gray-500 text-xl font-brandon">BOULEVARDIER</h2>
           <p class="text-white text-left text-lg font-brandon">
-            Rum · Pomegranate Liqueur · Orange Liqueur · Passion Fruit · Lime
-            · Orange · Red Wine Float
+            Deep, rum based, and bittersweeet
           </p>
         </div>
         <div class="w-72">
           <h2 class="mb-2 text-gray-500 text-xl font-brandon">
-            COSMOPOLITAN
+            SIDECAR
           </h2>
           <p class="text-white text-left text-lg font-brandon">
-            Rum · Pomegranate Liqueur · Orange Liqueur · Passion Fruit · Lime
-            · Orange · Red Wine Float
+            Rich and vibrant balancing rum and tartness
           </p>
         </div>
         <div class="w-72">
-          <h2 class="mb-2 text-gray-500 text-xl font-brandon">SIDECAR</h2>
+          <h2 class="mb-2 text-gray-500 text-xl font-brandon">ELEANOR</h2>
           <p class="text-white text-left text-lg font-brandon">
-            Rum · Pomegranate Liqueur · Orange Liqueur · Passion Fruit · Lime
-            · Orange · Red Wine Float
+            A sugar rimmed rum-based cosmopolitan
           </p>
         </div>
-        <div class="w-72">
-          <h2 class="mb-2 text-gray-500 text-xl font-brandon">
-            DARK AND STORMY
-          </h2>
-          <p class="text-white text-left text-lg font-brandon">
-            Rum · Pomegranate Liqueur · Orange Liqueur · Passion Fruit · Lime
-            · Orange · Red Wine Float
-          </p>
-        </div>
-        <div class="w-72">
-          <h2 class="mb-2 text-gray-500 text-xl font-brandon">MINT JULEP</h2>
-          <p class="text-white text-left text-lg font-brandon">
-            Rum · Pomegranate Liqueur · Orange Liqueur · Passion Fruit · Lime
-            · Orange · Red Wine Float
-          </p>
-        </div>
+
       </div>
     </div>
   </section>
@@ -263,6 +241,7 @@
     </div>
   </footer>
   <script src="js/maps.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
