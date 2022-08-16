@@ -35,7 +35,7 @@ function navScroll() {
       });
     } else if (href === "#about") {
       navBar.classList.add("bg-black");
-      consol.log;
+
       const offsetTop = document.querySelector(href).offsetTop;
       scroll({
         top: offsetTop - navHeight + 20,
